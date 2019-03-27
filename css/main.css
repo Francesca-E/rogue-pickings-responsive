@@ -30,7 +30,7 @@ h4 {
 	font-weight: 700;
 }
 h1 {
-	font-size: 1.875rem;
+	font-size: 1.5rem;
 }
 h2 {
     font-size: 1.5rem;
@@ -96,7 +96,7 @@ header nav ul li {
 header nav ul li a{
 	text-decoration: none;
 	color:#77a466;
-
+  font-size: 1.2rem;
 }
 
 /*The widths are in a percentage!*/
@@ -106,15 +106,16 @@ header nav ul li a{
 	width:100%;
 }
 
-.main-image {
-	height: 100%;
-}
 
 
 .main-image img {
 	width: 100%;
 	border-bottom: 3px solid #77a466;
 	border-top: 3px solid #77a466;
+}
+
+.item{
+		max-height: 270px;
 }
 
 .main-title {
@@ -235,16 +236,20 @@ footer span {
 	}
 
 	header  h1 {
+	float:left;
+	display:inline-block;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-flow:row wrap;
 	justify-content: center;
 	width:50%;
+	border-bottom-color: white;
 	}
 
   header nav{
-  border-bottom: 3px solid #77a466;
+	display: inline-block;
+	float:right;
 	width: 50%;
 }
 
